@@ -1,0 +1,73 @@
+//
+//  AppBasicFrameworkPCH.pch
+//  AppBasicFramework
+//
+//  Created by Davis.Qiao on 16/10/7.
+//  Copyright © 2016年 Davis.Qiao. All rights reserved.
+//
+
+
+//定义下边两个宏，就不需要自动布局时候每次写入'mas_'前缀
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+
+
+
+#ifndef AppBasicFrameworkPCH_pch
+#define AppBasicFrameworkPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//三方库
+#define MAS_SHORTHAND
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "FMDB.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+#import "UMSocial.h"
+#import "MJRefresh.h"
+//#import <MobClick.h>
+
+//category
+#import "UIColor+Hex.h"
+#import "UILabel+ESAdjustableLabel.h"
+#import "HJCornerRadius.h"
+#import "NSError+UserError.h"
+#import "UIView+PPAdd.h"
+#import "UIImageView+ShopAnimation.h"
+#import "UIView+popAnimation.h"
+#import "UITextField+History.h"
+#import "UITextView+PlaceHolder.h"
+#import "UIButton+Submitting.h"
+#import "UIButton+TouchAreaInsets.h"
+#import "UILabel+PPSetRangeTextColor.h"
+#import "UIButton+LXMImagePosition.h"
+#import "UIButton+SizeToFitTitleLength.h"
+#import "UILabel+SizeToFitTitleLength.h"
+
+#import "ConfigDAV.h"
+#import "DBHelperDAV.h"
+//defines
+#import "DAVConfig.h"
+#import "NotificationDefines.h"
+#import "ThirdPartShareDefines.h"
+#import "InterfaceDefines.h"
+//工具类
+
+#import "DAVRefreshHeader.h"
+#import "DAVSetUpNetworkParam.h"
+//网络
+#import "DAVNetwork.h"
+
+
+
+
+#endif /* AppBasicFrameworkPCH_pch */

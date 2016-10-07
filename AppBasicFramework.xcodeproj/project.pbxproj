@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1413F00264367ADBB2D9E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C35259EBEF7CB8A3ABA5D9 /* libPods.a */; };
+		EF7DD9C61DA7C12100F519C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DD9C51DA7C12100F519C5 /* main.m */; };
+		EF7DD9C91DA7C12100F519C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DD9C81DA7C12100F519C5 /* AppDelegate.m */; };
+		EF7DD9CF1DA7C12100F519C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DD9CD1DA7C12100F519C5 /* Main.storyboard */; };
+		EF7DD9D11DA7C12100F519C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7DD9D01DA7C12100F519C5 /* Assets.xcassets */; };
+		EF7DD9D41DA7C12100F519C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DD9D21DA7C12100F519C5 /* LaunchScreen.storyboard */; };
+		EF7DD9DF1DA7C12100F519C5 /* AppBasicFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DD9DE1DA7C12100F519C5 /* AppBasicFrameworkTests.m */; };
+		EF7DD9EA1DA7C12100F519C5 /* AppBasicFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DD9E91DA7C12100F519C5 /* AppBasicFrameworkUITests.m */; };
+		EF7DDAD71DA7C77E00F519C5 /* HJCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA2D1DA7C77E00F519C5 /* HJCornerRadius.m */; };
+		EF7DDAD81DA7C77E00F519C5 /* NSError+UserError.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA2F1DA7C77E00F519C5 /* NSError+UserError.m */; };
+		EF7DDADA1DA7C77E00F519C5 /* UIButton+LXMImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA331DA7C77E00F519C5 /* UIButton+LXMImagePosition.m */; };
+		EF7DDADB1DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA351DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.m */; };
+		EF7DDADC1DA7C77E00F519C5 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA371DA7C77E00F519C5 /* UIButton+Submitting.m */; };
+		EF7DDADD1DA7C77E00F519C5 /* UIButton+TouchAreaInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA391DA7C77E00F519C5 /* UIButton+TouchAreaInsets.m */; };
+		EF7DDADE1DA7C77E00F519C5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA3B1DA7C77E00F519C5 /* UIColor+Hex.m */; };
+		EF7DDADF1DA7C77E00F519C5 /* UIImageView+ShopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA3D1DA7C77E00F519C5 /* UIImageView+ShopAnimation.m */; };
+		EF7DDAE01DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA3F1DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.m */; };
+		EF7DDAE11DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA411DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.m */; };
+		EF7DDAE21DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA431DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.m */; };
+		EF7DDAE31DA7C77E00F519C5 /* UITextField+History.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA451DA7C77E00F519C5 /* UITextField+History.m */; };
+		EF7DDAE41DA7C77E00F519C5 /* UITextView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA471DA7C77E00F519C5 /* UITextView+PlaceHolder.m */; };
+		EF7DDAE51DA7C77E00F519C5 /* UIView+popAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA491DA7C77E00F519C5 /* UIView+popAnimation.m */; };
+		EF7DDAE61DA7C77E00F519C5 /* UIView+PPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA4B1DA7C77E00F519C5 /* UIView+PPAdd.m */; };
+		EF7DDAE71DA7C77E00F519C5 /* DAVProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA4F1DA7C77E00F519C5 /* DAVProductDetailViewController.m */; };
+		EF7DDAE91DA7C77E00F519C5 /* DAVProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA591DA7C77E00F519C5 /* DAVProductModel.m */; };
+		EF7DDAEA1DA7C77E00F519C5 /* DAVProductModelDic.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA5B1DA7C77E00F519C5 /* DAVProductModelDic.m */; };
+		EF7DDAEB1DA7C77E00F519C5 /* CustomNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA5E1DA7C77E00F519C5 /* CustomNaviBarView.m */; };
+		EF7DDAEC1DA7C77E00F519C5 /* DAVUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDA611DA7C77E00F519C5 /* DAVUploadParam.m */; };
+		EF7DDB151DA7C77E00F519C5 /* DAVMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAC01DA7C77E00F519C5 /* DAVMD5.m */; };
+		EF7DDB161DA7C77E00F519C5 /* DAVRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAC21DA7C77E00F519C5 /* DAVRefreshHeader.m */; };
+		EF7DDB171DA7C77E00F519C5 /* DAVSetUpNetworkParam.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAC41DA7C77E00F519C5 /* DAVSetUpNetworkParam.m */; };
+		EF7DDB181DA7C77E00F519C5 /* keyChainStoreDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAC61DA7C77E00F519C5 /* keyChainStoreDAV.m */; };
+		EF7DDB191DA7C77E00F519C5 /* UUIDDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAC81DA7C77E00F519C5 /* UUIDDAV.m */; };
+		EF7DDB1A1DA7C77E00F519C5 /* DAVRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDACB1DA7C77E00F519C5 /* DAVRecordTableViewCell.m */; };
+		EF7DDB1B1DA7C77E00F519C5 /* DAVRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDACC1DA7C77E00F519C5 /* DAVRecordTableViewCell.xib */; };
+		EF7DDB1C1DA7C77E00F519C5 /* CountdownNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDACE1DA7C77E00F519C5 /* CountdownNumber.m */; };
+		EF7DDB1D1DA7C77E00F519C5 /* otherUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAD01DA7C77E00F519C5 /* otherUserView.m */; };
+		EF7DDB1E1DA7C77E00F519C5 /* PPCGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAD21DA7C77E00F519C5 /* PPCGProgressView.m */; };
+		EF7DDB1F1DA7C77E00F519C5 /* ProductsSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAD41DA7C77E00F519C5 /* ProductsSegmentView.m */; };
+		EF7DDB201DA7C77E00F519C5 /* topSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDAD61DA7C77E00F519C5 /* topSegmentView.m */; };
+		EF7DDB281DA7C7DB00F519C5 /* DAVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB231DA7C7DB00F519C5 /* DAVBaseViewController.m */; };
+		EF7DDB291DA7C7DB00F519C5 /* DAVNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB251DA7C7DB00F519C5 /* DAVNetwork.m */; };
+		EF7DDB2A1DA7C7DB00F519C5 /* DAVTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB271DA7C7DB00F519C5 /* DAVTabBarViewController.m */; };
+		EF7DDB2E1DA7C80100F519C5 /* DBHelperDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB2D1DA7C80100F519C5 /* DBHelperDAV.m */; };
+		EF7DDB311DA7C9E000F519C5 /* DAVCarouselAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB301DA7C9E000F519C5 /* DAVCarouselAdView.m */; };
+		EF7DDB351DA7CBD400F519C5 /* DAVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB341DA7CBD400F519C5 /* DAVHomeViewController.m */; };
+		EF7DDB381DA7CBEC00F519C5 /* DAVProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB371DA7CBEC00F519C5 /* DAVProductsViewController.m */; };
+		EF7DDB3B1DA7CC0900F519C5 /* DAVFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB3A1DA7CC0900F519C5 /* DAVFindViewController.m */; };
+		EF7DDB3E1DA7CC1500F519C5 /* DAVShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB3D1DA7CC1500F519C5 /* DAVShoppingCartViewController.m */; };
+		EF7DDB411DA7CC2400F519C5 /* DAVMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB401DA7CC2400F519C5 /* DAVMineViewController.m */; };
+		EF7DDBA41DA7D11C00F519C5 /* ConfigDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB551DA7D11C00F519C5 /* ConfigDAV.m */; };
+		EF7DDBA51DA7D11C00F519C5 /* shopModelDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB571DA7D11C00F519C5 /* shopModelDAV.m */; };
+		EF7DDBA61DA7D11C00F519C5 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB591DA7D11C00F519C5 /* UMSocialLocalizable.strings */; };
+		EF7DDBA71DA7D11C00F519C5 /* libUMSocial_Sdk_5.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7DDB671DA7D11C00F519C5 /* libUMSocial_Sdk_5.0.1.a */; };
+		EF7DDBA81DA7D11C00F519C5 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB691DA7D11C00F519C5 /* UMSCommentDetailController.xib */; };
+		EF7DDBA91DA7D11C00F519C5 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6A1DA7D11C00F519C5 /* UMSCommentInputController.xib */; };
+		EF7DDBAA1DA7D11C00F519C5 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6B1DA7D11C00F519C5 /* UMSCommentInputControlleriPad.xib */; };
+		EF7DDBAB1DA7D11C00F519C5 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6C1DA7D11C00F519C5 /* UMShareEditViewController.xib */; };
+		EF7DDBAC1DA7D11C00F519C5 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6D1DA7D11C00F519C5 /* UMShareEditViewControlleriPad.xib */; };
+		EF7DDBAD1DA7D11C00F519C5 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6E1DA7D11C00F519C5 /* UMSLoginViewController.xib */; };
+		EF7DDBAE1DA7D11C00F519C5 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB6F1DA7D11C00F519C5 /* UMSnsAccountViewController.xib */; };
+		EF7DDBAF1DA7D11C00F519C5 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB701DA7D11C00F519C5 /* UMSShareListController.xib */; };
+		EF7DDBB01DA7D11C00F519C5 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB711DA7D11C00F519C5 /* UMSocialSDKResourcesNew.bundle */; };
+		EF7DDBB91DA7D11C00F519C5 /* iOS-social-analytics-releasenote.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB901DA7D11C00F519C5 /* iOS-social-analytics-releasenote.html */; };
+		EF7DDBBA1DA7D11C00F519C5 /* iOS-social-releasenote.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB911DA7D11C00F519C5 /* iOS-social-releasenote.html */; };
+		EF7DDBBB1DA7D11C00F519C5 /* ios-social-sdk-comment-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB921DA7D11C00F519C5 /* ios-social-sdk-comment-detail.html */; };
+		EF7DDBBC1DA7D11C00F519C5 /* ios-social-sdk-comment-quick.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB931DA7D11C00F519C5 /* ios-social-sdk-comment-quick.html */; };
+		EF7DDBBD1DA7D11C00F519C5 /* ios-social-sdk-like.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB941DA7D11C00F519C5 /* ios-social-sdk-like.html */; };
+		EF7DDBBE1DA7D11C00F519C5 /* ios-social-sdk-login-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB951DA7D11C00F519C5 /* ios-social-sdk-login-detail.html */; };
+		EF7DDBBF1DA7D11C00F519C5 /* ios-social-sdk-login-quick.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB961DA7D11C00F519C5 /* ios-social-sdk-login-quick.html */; };
+		EF7DDBC01DA7D11C00F519C5 /* ios-social-sdk-shake.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB971DA7D11C00F519C5 /* ios-social-sdk-shake.html */; };
+		EF7DDBC11DA7D11C00F519C5 /* ios-social-sdk-share-detail.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB981DA7D11C00F519C5 /* ios-social-sdk-share-detail.html */; };
+		EF7DDBC21DA7D11C00F519C5 /* ios-social-sdk-share-quick.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB991DA7D11C00F519C5 /* ios-social-sdk-share-quick.html */; };
+		EF7DDBC31DA7D11C00F519C5 /* ios-social-sdk-socialbar.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB9A1DA7D11C00F519C5 /* ios-social-sdk-socialbar.html */; };
+		EF7DDBC41DA7D11C00F519C5 /* markdown.css in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDB9B1DA7D11C00F519C5 /* markdown.css */; };
+		EF7DDBC51DA7D11C00F519C5 /* UserDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7DDB9D1DA7D11C00F519C5 /* UserDAV.m */; };
+		EF7DDBCB1DA7DA0A00F519C5 /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF7DDBCA1DA7DA0A00F519C5 /* msyh.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7DD9DB1DA7C12100F519C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7DD9B91DA7C12100F519C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7DD9C01DA7C12100F519C5;
+			remoteInfo = AppBasicFramework;
+		};
+		EF7DD9E61DA7C12100F519C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7DD9B91DA7C12100F519C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7DD9C01DA7C12100F519C5;
+			remoteInfo = AppBasicFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8383BAF24793A4D3418CE3FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C35259EBEF7CB8A3ABA5D9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE17F9F55654CCCCEA0D34CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EF7DD9C11DA7C12100F519C5 /* AppBasicFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBasicFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DD9C51DA7C12100F519C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7DD9C71DA7C12100F519C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7DD9C81DA7C12100F519C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7DD9CE1DA7C12100F519C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7DD9D01DA7C12100F519C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7DD9D31DA7C12100F519C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7DD9D51DA7C12100F519C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DD9DA1DA7C12100F519C5 /* AppBasicFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppBasicFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DD9DE1DA7C12100F519C5 /* AppBasicFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppBasicFrameworkTests.m; sourceTree = "<group>"; };
+		EF7DD9E01DA7C12100F519C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DD9E51DA7C12100F519C5 /* AppBasicFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppBasicFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DD9E91DA7C12100F519C5 /* AppBasicFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppBasicFrameworkUITests.m; sourceTree = "<group>"; };
+		EF7DD9EB1DA7C12100F519C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DD9F71DA7C32800F519C5 /* AppBasicFrameworkPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppBasicFrameworkPCH.pch; path = ../../AppBasicFrameworkPCH.pch; sourceTree = "<group>"; };
+		EF7DDA2C1DA7C77E00F519C5 /* HJCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCornerRadius.h; sourceTree = "<group>"; };
+		EF7DDA2D1DA7C77E00F519C5 /* HJCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCornerRadius.m; sourceTree = "<group>"; };
+		EF7DDA2E1DA7C77E00F519C5 /* NSError+UserError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+UserError.h"; sourceTree = "<group>"; };
+		EF7DDA2F1DA7C77E00F519C5 /* NSError+UserError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+UserError.m"; sourceTree = "<group>"; };
+		EF7DDA321DA7C77E00F519C5 /* UIButton+LXMImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXMImagePosition.h"; sourceTree = "<group>"; };
+		EF7DDA331DA7C77E00F519C5 /* UIButton+LXMImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXMImagePosition.m"; sourceTree = "<group>"; };
+		EF7DDA341DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SizeToFitTitleLength.h"; sourceTree = "<group>"; };
+		EF7DDA351DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SizeToFitTitleLength.m"; sourceTree = "<group>"; };
+		EF7DDA361DA7C77E00F519C5 /* UIButton+Submitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Submitting.h"; sourceTree = "<group>"; };
+		EF7DDA371DA7C77E00F519C5 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Submitting.m"; sourceTree = "<group>"; };
+		EF7DDA381DA7C77E00F519C5 /* UIButton+TouchAreaInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TouchAreaInsets.h"; sourceTree = "<group>"; };
+		EF7DDA391DA7C77E00F519C5 /* UIButton+TouchAreaInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TouchAreaInsets.m"; sourceTree = "<group>"; };
+		EF7DDA3A1DA7C77E00F519C5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EF7DDA3B1DA7C77E00F519C5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EF7DDA3C1DA7C77E00F519C5 /* UIImageView+ShopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ShopAnimation.h"; sourceTree = "<group>"; };
+		EF7DDA3D1DA7C77E00F519C5 /* UIImageView+ShopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ShopAnimation.m"; sourceTree = "<group>"; };
+		EF7DDA3E1DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ESAdjustableLabel.h"; sourceTree = "<group>"; };
+		EF7DDA3F1DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ESAdjustableLabel.m"; sourceTree = "<group>"; };
+		EF7DDA401DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+PPSetRangeTextColor.h"; sourceTree = "<group>"; };
+		EF7DDA411DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PPSetRangeTextColor.m"; sourceTree = "<group>"; };
+		EF7DDA421DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SizeToFitTitleLength.h"; sourceTree = "<group>"; };
+		EF7DDA431DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SizeToFitTitleLength.m"; sourceTree = "<group>"; };
+		EF7DDA441DA7C77E00F519C5 /* UITextField+History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+History.h"; sourceTree = "<group>"; };
+		EF7DDA451DA7C77E00F519C5 /* UITextField+History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+History.m"; sourceTree = "<group>"; };
+		EF7DDA461DA7C77E00F519C5 /* UITextView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+PlaceHolder.h"; sourceTree = "<group>"; };
+		EF7DDA471DA7C77E00F519C5 /* UITextView+PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolder.m"; sourceTree = "<group>"; };
+		EF7DDA481DA7C77E00F519C5 /* UIView+popAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+popAnimation.h"; sourceTree = "<group>"; };
+		EF7DDA491DA7C77E00F519C5 /* UIView+popAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+popAnimation.m"; sourceTree = "<group>"; };
+		EF7DDA4A1DA7C77E00F519C5 /* UIView+PPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PPAdd.h"; sourceTree = "<group>"; };
+		EF7DDA4B1DA7C77E00F519C5 /* UIView+PPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PPAdd.m"; sourceTree = "<group>"; };
+		EF7DDA4E1DA7C77E00F519C5 /* DAVProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVProductDetailViewController.h; sourceTree = "<group>"; };
+		EF7DDA4F1DA7C77E00F519C5 /* DAVProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVProductDetailViewController.m; sourceTree = "<group>"; };
+		EF7DDA541DA7C77E00F519C5 /* InterfaceDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceDefines.h; sourceTree = "<group>"; };
+		EF7DDA551DA7C77E00F519C5 /* NotificationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDefines.h; sourceTree = "<group>"; };
+		EF7DDA561DA7C77E00F519C5 /* ThirdPartShareDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartShareDefines.h; sourceTree = "<group>"; };
+		EF7DDA581DA7C77E00F519C5 /* DAVProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVProductModel.h; sourceTree = "<group>"; };
+		EF7DDA591DA7C77E00F519C5 /* DAVProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVProductModel.m; sourceTree = "<group>"; };
+		EF7DDA5A1DA7C77E00F519C5 /* DAVProductModelDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVProductModelDic.h; sourceTree = "<group>"; };
+		EF7DDA5B1DA7C77E00F519C5 /* DAVProductModelDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVProductModelDic.m; sourceTree = "<group>"; };
+		EF7DDA5D1DA7C77E00F519C5 /* CustomNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarView.h; sourceTree = "<group>"; };
+		EF7DDA5E1DA7C77E00F519C5 /* CustomNaviBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarView.m; sourceTree = "<group>"; };
+		EF7DDA601DA7C77E00F519C5 /* DAVUploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVUploadParam.h; sourceTree = "<group>"; };
+		EF7DDA611DA7C77E00F519C5 /* DAVUploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVUploadParam.m; sourceTree = "<group>"; };
+		EF7DDABF1DA7C77E00F519C5 /* DAVMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVMD5.h; sourceTree = "<group>"; };
+		EF7DDAC01DA7C77E00F519C5 /* DAVMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVMD5.m; sourceTree = "<group>"; };
+		EF7DDAC11DA7C77E00F519C5 /* DAVRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRefreshHeader.h; sourceTree = "<group>"; };
+		EF7DDAC21DA7C77E00F519C5 /* DAVRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRefreshHeader.m; sourceTree = "<group>"; };
+		EF7DDAC31DA7C77E00F519C5 /* DAVSetUpNetworkParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVSetUpNetworkParam.h; sourceTree = "<group>"; };
+		EF7DDAC41DA7C77E00F519C5 /* DAVSetUpNetworkParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVSetUpNetworkParam.m; sourceTree = "<group>"; };
+		EF7DDAC51DA7C77E00F519C5 /* keyChainStoreDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyChainStoreDAV.h; sourceTree = "<group>"; };
+		EF7DDAC61DA7C77E00F519C5 /* keyChainStoreDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keyChainStoreDAV.m; sourceTree = "<group>"; };
+		EF7DDAC71DA7C77E00F519C5 /* UUIDDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDDAV.h; sourceTree = "<group>"; };
+		EF7DDAC81DA7C77E00F519C5 /* UUIDDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDDAV.m; sourceTree = "<group>"; };
+		EF7DDACA1DA7C77E00F519C5 /* DAVRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRecordTableViewCell.h; sourceTree = "<group>"; };
+		EF7DDACB1DA7C77E00F519C5 /* DAVRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRecordTableViewCell.m; sourceTree = "<group>"; };
+		EF7DDACC1DA7C77E00F519C5 /* DAVRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAVRecordTableViewCell.xib; sourceTree = "<group>"; };
+		EF7DDACD1DA7C77E00F519C5 /* CountdownNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownNumber.h; sourceTree = "<group>"; };
+		EF7DDACE1DA7C77E00F519C5 /* CountdownNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownNumber.m; sourceTree = "<group>"; };
+		EF7DDACF1DA7C77E00F519C5 /* otherUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherUserView.h; sourceTree = "<group>"; };
+		EF7DDAD01DA7C77E00F519C5 /* otherUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherUserView.m; sourceTree = "<group>"; };
+		EF7DDAD11DA7C77E00F519C5 /* PPCGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCGProgressView.h; sourceTree = "<group>"; };
+		EF7DDAD21DA7C77E00F519C5 /* PPCGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCGProgressView.m; sourceTree = "<group>"; };
+		EF7DDAD31DA7C77E00F519C5 /* ProductsSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsSegmentView.h; sourceTree = "<group>"; };
+		EF7DDAD41DA7C77E00F519C5 /* ProductsSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsSegmentView.m; sourceTree = "<group>"; };
+		EF7DDAD51DA7C77E00F519C5 /* topSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topSegmentView.h; sourceTree = "<group>"; };
+		EF7DDAD61DA7C77E00F519C5 /* topSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topSegmentView.m; sourceTree = "<group>"; };
+		EF7DDB221DA7C7DB00F519C5 /* DAVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVBaseViewController.h; sourceTree = "<group>"; };
+		EF7DDB231DA7C7DB00F519C5 /* DAVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVBaseViewController.m; sourceTree = "<group>"; };
+		EF7DDB241DA7C7DB00F519C5 /* DAVNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVNetwork.h; sourceTree = "<group>"; };
+		EF7DDB251DA7C7DB00F519C5 /* DAVNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVNetwork.m; sourceTree = "<group>"; };
+		EF7DDB261DA7C7DB00F519C5 /* DAVTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVTabBarViewController.h; sourceTree = "<group>"; };
+		EF7DDB271DA7C7DB00F519C5 /* DAVTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVTabBarViewController.m; sourceTree = "<group>"; };
+		EF7DDB2C1DA7C80100F519C5 /* DBHelperDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelperDAV.h; sourceTree = "<group>"; };
+		EF7DDB2D1DA7C80100F519C5 /* DBHelperDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelperDAV.m; sourceTree = "<group>"; };
+		EF7DDB2F1DA7C9E000F519C5 /* DAVCarouselAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVCarouselAdView.h; sourceTree = "<group>"; };
+		EF7DDB301DA7C9E000F519C5 /* DAVCarouselAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVCarouselAdView.m; sourceTree = "<group>"; };
+		EF7DDB331DA7CBD400F519C5 /* DAVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVHomeViewController.h; sourceTree = "<group>"; };
+		EF7DDB341DA7CBD400F519C5 /* DAVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVHomeViewController.m; sourceTree = "<group>"; };
+		EF7DDB361DA7CBEC00F519C5 /* DAVProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVProductsViewController.h; sourceTree = "<group>"; };
+		EF7DDB371DA7CBEC00F519C5 /* DAVProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVProductsViewController.m; sourceTree = "<group>"; };
+		EF7DDB391DA7CC0900F519C5 /* DAVFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVFindViewController.h; sourceTree = "<group>"; };
+		EF7DDB3A1DA7CC0900F519C5 /* DAVFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVFindViewController.m; sourceTree = "<group>"; };
+		EF7DDB3C1DA7CC1500F519C5 /* DAVShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVShoppingCartViewController.h; sourceTree = "<group>"; };
+		EF7DDB3D1DA7CC1500F519C5 /* DAVShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVShoppingCartViewController.m; sourceTree = "<group>"; };
+		EF7DDB3F1DA7CC2400F519C5 /* DAVMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVMineViewController.h; sourceTree = "<group>"; };
+		EF7DDB401DA7CC2400F519C5 /* DAVMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVMineViewController.m; sourceTree = "<group>"; };
+		EF7DDB541DA7D11C00F519C5 /* ConfigDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigDAV.h; sourceTree = "<group>"; };
+		EF7DDB551DA7D11C00F519C5 /* ConfigDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigDAV.m; sourceTree = "<group>"; };
+		EF7DDB561DA7D11C00F519C5 /* shopModelDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopModelDAV.h; sourceTree = "<group>"; };
+		EF7DDB571DA7D11C00F519C5 /* shopModelDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopModelDAV.m; sourceTree = "<group>"; };
+		EF7DDB5A1DA7D11C00F519C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		EF7DDB5C1DA7D11C00F519C5 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		EF7DDB5D1DA7D11C00F519C5 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		EF7DDB5E1DA7D11C00F519C5 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		EF7DDB5F1DA7D11C00F519C5 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		EF7DDB601DA7D11C00F519C5 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		EF7DDB611DA7D11C00F519C5 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		EF7DDB621DA7D11C00F519C5 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		EF7DDB631DA7D11C00F519C5 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		EF7DDB641DA7D11C00F519C5 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		EF7DDB651DA7D11C00F519C5 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		EF7DDB661DA7D11C00F519C5 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		EF7DDB671DA7D11C00F519C5 /* libUMSocial_Sdk_5.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_5.0.1.a; sourceTree = "<group>"; };
+		EF7DDB691DA7D11C00F519C5 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		EF7DDB6A1DA7D11C00F519C5 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		EF7DDB6B1DA7D11C00F519C5 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		EF7DDB6C1DA7D11C00F519C5 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		EF7DDB6D1DA7D11C00F519C5 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		EF7DDB6E1DA7D11C00F519C5 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		EF7DDB6F1DA7D11C00F519C5 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		EF7DDB701DA7D11C00F519C5 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		EF7DDB711DA7D11C00F519C5 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		EF7DDB721DA7D11C00F519C5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		EF7DDB901DA7D11C00F519C5 /* iOS-social-analytics-releasenote.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "iOS-social-analytics-releasenote.html"; sourceTree = "<group>"; };
+		EF7DDB911DA7D11C00F519C5 /* iOS-social-releasenote.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "iOS-social-releasenote.html"; sourceTree = "<group>"; };
+		EF7DDB921DA7D11C00F519C5 /* ios-social-sdk-comment-detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-comment-detail.html"; sourceTree = "<group>"; };
+		EF7DDB931DA7D11C00F519C5 /* ios-social-sdk-comment-quick.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-comment-quick.html"; sourceTree = "<group>"; };
+		EF7DDB941DA7D11C00F519C5 /* ios-social-sdk-like.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-like.html"; sourceTree = "<group>"; };
+		EF7DDB951DA7D11C00F519C5 /* ios-social-sdk-login-detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-login-detail.html"; sourceTree = "<group>"; };
+		EF7DDB961DA7D11C00F519C5 /* ios-social-sdk-login-quick.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-login-quick.html"; sourceTree = "<group>"; };
+		EF7DDB971DA7D11C00F519C5 /* ios-social-sdk-shake.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-shake.html"; sourceTree = "<group>"; };
+		EF7DDB981DA7D11C00F519C5 /* ios-social-sdk-share-detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-share-detail.html"; sourceTree = "<group>"; };
+		EF7DDB991DA7D11C00F519C5 /* ios-social-sdk-share-quick.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-share-quick.html"; sourceTree = "<group>"; };
+		EF7DDB9A1DA7D11C00F519C5 /* ios-social-sdk-socialbar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-socialbar.html"; sourceTree = "<group>"; };
+		EF7DDB9B1DA7D11C00F519C5 /* markdown.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = markdown.css; sourceTree = "<group>"; };
+		EF7DDB9C1DA7D11C00F519C5 /* UserDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDAV.h; sourceTree = "<group>"; };
+		EF7DDB9D1DA7D11C00F519C5 /* UserDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDAV.m; sourceTree = "<group>"; };
+		EF7DDBC91DA7D5DF00F519C5 /* DAVConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAVConfig.h; sourceTree = "<group>"; };
+		EF7DDBCA1DA7DA0A00F519C5 /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7DD9BE1DA7C12100F519C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1413F00264367ADBB2D9E0 /* libPods.a in Frameworks */,
+				EF7DDBA71DA7D11C00F519C5 /* libUMSocial_Sdk_5.0.1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9D71DA7C12100F519C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9E21DA7C12100F519C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DEEA9CC21C1D9BAEDDB408F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C35259EBEF7CB8A3ABA5D9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7790CE5FDED33DB5408BE8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8383BAF24793A4D3418CE3FF /* Pods.debug.xcconfig */,
+				DE17F9F55654CCCCEA0D34CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF7DD9B81DA7C12100F519C5 = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9C31DA7C12100F519C5 /* AppBasicFramework */,
+				EF7DD9DD1DA7C12100F519C5 /* AppBasicFrameworkTests */,
+				EF7DD9E81DA7C12100F519C5 /* AppBasicFrameworkUITests */,
+				EF7DD9C21DA7C12100F519C5 /* Products */,
+				B7790CE5FDED33DB5408BE8F /* Pods */,
+				5DEEA9CC21C1D9BAEDDB408F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7DD9C21DA7C12100F519C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9C11DA7C12100F519C5 /* AppBasicFramework.app */,
+				EF7DD9DA1DA7C12100F519C5 /* AppBasicFrameworkTests.xctest */,
+				EF7DD9E51DA7C12100F519C5 /* AppBasicFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7DD9C31DA7C12100F519C5 /* AppBasicFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9C71DA7C12100F519C5 /* AppDelegate.h */,
+				EF7DD9C81DA7C12100F519C5 /* AppDelegate.m */,
+				EF7DDB321DA7CB8100F519C5 /* Controller */,
+				EF7DDB2B1DA7C80100F519C5 /* Model */,
+				EF7DDB211DA7C7DB00F519C5 /* Base */,
+				EF7DDA2A1DA7C77E00F519C5 /* Common */,
+				EF7DD9CD1DA7C12100F519C5 /* Main.storyboard */,
+				EF7DD9D01DA7C12100F519C5 /* Assets.xcassets */,
+				EF7DD9D21DA7C12100F519C5 /* LaunchScreen.storyboard */,
+				EF7DD9D51DA7C12100F519C5 /* Info.plist */,
+				EF7DD9C41DA7C12100F519C5 /* Supporting Files */,
+			);
+			path = AppBasicFramework;
+			sourceTree = "<group>";
+		};
+		EF7DD9C41DA7C12100F519C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9C51DA7C12100F519C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7DD9DD1DA7C12100F519C5 /* AppBasicFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9DE1DA7C12100F519C5 /* AppBasicFrameworkTests.m */,
+				EF7DD9E01DA7C12100F519C5 /* Info.plist */,
+			);
+			path = AppBasicFrameworkTests;
+			sourceTree = "<group>";
+		};
+		EF7DD9E81DA7C12100F519C5 /* AppBasicFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9E91DA7C12100F519C5 /* AppBasicFrameworkUITests.m */,
+				EF7DD9EB1DA7C12100F519C5 /* Info.plist */,
+			);
+			path = AppBasicFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		EF7DDA2A1DA7C77E00F519C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDBCA1DA7DA0A00F519C5 /* msyh.ttf */,
+				EF7DDB421DA7D11C00F519C5 /* ThirdVendor */,
+				EF7DDA2B1DA7C77E00F519C5 /* Category */,
+				EF7DDA4D1DA7C77E00F519C5 /* Controller */,
+				EF7DDA521DA7C77E00F519C5 /* GlobalDefine */,
+				EF7DDA571DA7C77E00F519C5 /* Model */,
+				EF7DDA5C1DA7C77E00F519C5 /* NavBarView */,
+				EF7DDA5F1DA7C77E00F519C5 /* Network */,
+				EF7DDABE1DA7C77E00F519C5 /* Utils */,
+				EF7DDAC91DA7C77E00F519C5 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EF7DDA2B1DA7C77E00F519C5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDA2C1DA7C77E00F519C5 /* HJCornerRadius.h */,
+				EF7DDA2D1DA7C77E00F519C5 /* HJCornerRadius.m */,
+				EF7DDA2E1DA7C77E00F519C5 /* NSError+UserError.h */,
+				EF7DDA2F1DA7C77E00F519C5 /* NSError+UserError.m */,
+				EF7DDA321DA7C77E00F519C5 /* UIButton+LXMImagePosition.h */,
+				EF7DDA331DA7C77E00F519C5 /* UIButton+LXMImagePosition.m */,
+				EF7DDA341DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.h */,
+				EF7DDA351DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.m */,
+				EF7DDA361DA7C77E00F519C5 /* UIButton+Submitting.h */,
+				EF7DDA371DA7C77E00F519C5 /* UIButton+Submitting.m */,
+				EF7DDA381DA7C77E00F519C5 /* UIButton+TouchAreaInsets.h */,
+				EF7DDA391DA7C77E00F519C5 /* UIButton+TouchAreaInsets.m */,
+				EF7DDA3A1DA7C77E00F519C5 /* UIColor+Hex.h */,
+				EF7DDA3B1DA7C77E00F519C5 /* UIColor+Hex.m */,
+				EF7DDA3C1DA7C77E00F519C5 /* UIImageView+ShopAnimation.h */,
+				EF7DDA3D1DA7C77E00F519C5 /* UIImageView+ShopAnimation.m */,
+				EF7DDA3E1DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.h */,
+				EF7DDA3F1DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.m */,
+				EF7DDA401DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.h */,
+				EF7DDA411DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.m */,
+				EF7DDA421DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.h */,
+				EF7DDA431DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.m */,
+				EF7DDA441DA7C77E00F519C5 /* UITextField+History.h */,
+				EF7DDA451DA7C77E00F519C5 /* UITextField+History.m */,
+				EF7DDA461DA7C77E00F519C5 /* UITextView+PlaceHolder.h */,
+				EF7DDA471DA7C77E00F519C5 /* UITextView+PlaceHolder.m */,
+				EF7DDA481DA7C77E00F519C5 /* UIView+popAnimation.h */,
+				EF7DDA491DA7C77E00F519C5 /* UIView+popAnimation.m */,
+				EF7DDA4A1DA7C77E00F519C5 /* UIView+PPAdd.h */,
+				EF7DDA4B1DA7C77E00F519C5 /* UIView+PPAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF7DDA4D1DA7C77E00F519C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDA4E1DA7C77E00F519C5 /* DAVProductDetailViewController.h */,
+				EF7DDA4F1DA7C77E00F519C5 /* DAVProductDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF7DDA521DA7C77E00F519C5 /* GlobalDefine */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DD9F71DA7C32800F519C5 /* AppBasicFrameworkPCH.pch */,
+				EF7DDBC91DA7D5DF00F519C5 /* DAVConfig.h */,
+				EF7DDA541DA7C77E00F519C5 /* InterfaceDefines.h */,
+				EF7DDA551DA7C77E00F519C5 /* NotificationDefines.h */,
+				EF7DDA561DA7C77E00F519C5 /* ThirdPartShareDefines.h */,
+			);
+			path = GlobalDefine;
+			sourceTree = "<group>";
+		};
+		EF7DDA571DA7C77E00F519C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDA581DA7C77E00F519C5 /* DAVProductModel.h */,
+				EF7DDA591DA7C77E00F519C5 /* DAVProductModel.m */,
+				EF7DDA5A1DA7C77E00F519C5 /* DAVProductModelDic.h */,
+				EF7DDA5B1DA7C77E00F519C5 /* DAVProductModelDic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7DDA5C1DA7C77E00F519C5 /* NavBarView */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDA5D1DA7C77E00F519C5 /* CustomNaviBarView.h */,
+				EF7DDA5E1DA7C77E00F519C5 /* CustomNaviBarView.m */,
+			);
+			path = NavBarView;
+			sourceTree = "<group>";
+		};
+		EF7DDA5F1DA7C77E00F519C5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDA601DA7C77E00F519C5 /* DAVUploadParam.h */,
+				EF7DDA611DA7C77E00F519C5 /* DAVUploadParam.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EF7DDABE1DA7C77E00F519C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDABF1DA7C77E00F519C5 /* DAVMD5.h */,
+				EF7DDAC01DA7C77E00F519C5 /* DAVMD5.m */,
+				EF7DDAC11DA7C77E00F519C5 /* DAVRefreshHeader.h */,
+				EF7DDAC21DA7C77E00F519C5 /* DAVRefreshHeader.m */,
+				EF7DDAC31DA7C77E00F519C5 /* DAVSetUpNetworkParam.h */,
+				EF7DDAC41DA7C77E00F519C5 /* DAVSetUpNetworkParam.m */,
+				EF7DDAC51DA7C77E00F519C5 /* keyChainStoreDAV.h */,
+				EF7DDAC61DA7C77E00F519C5 /* keyChainStoreDAV.m */,
+				EF7DDAC71DA7C77E00F519C5 /* UUIDDAV.h */,
+				EF7DDAC81DA7C77E00F519C5 /* UUIDDAV.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF7DDAC91DA7C77E00F519C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB2F1DA7C9E000F519C5 /* DAVCarouselAdView.h */,
+				EF7DDB301DA7C9E000F519C5 /* DAVCarouselAdView.m */,
+				EF7DDACA1DA7C77E00F519C5 /* DAVRecordTableViewCell.h */,
+				EF7DDACB1DA7C77E00F519C5 /* DAVRecordTableViewCell.m */,
+				EF7DDACC1DA7C77E00F519C5 /* DAVRecordTableViewCell.xib */,
+				EF7DDACD1DA7C77E00F519C5 /* CountdownNumber.h */,
+				EF7DDACE1DA7C77E00F519C5 /* CountdownNumber.m */,
+				EF7DDACF1DA7C77E00F519C5 /* otherUserView.h */,
+				EF7DDAD01DA7C77E00F519C5 /* otherUserView.m */,
+				EF7DDAD11DA7C77E00F519C5 /* PPCGProgressView.h */,
+				EF7DDAD21DA7C77E00F519C5 /* PPCGProgressView.m */,
+				EF7DDAD31DA7C77E00F519C5 /* ProductsSegmentView.h */,
+				EF7DDAD41DA7C77E00F519C5 /* ProductsSegmentView.m */,
+				EF7DDAD51DA7C77E00F519C5 /* topSegmentView.h */,
+				EF7DDAD61DA7C77E00F519C5 /* topSegmentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF7DDB211DA7C7DB00F519C5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB221DA7C7DB00F519C5 /* DAVBaseViewController.h */,
+				EF7DDB231DA7C7DB00F519C5 /* DAVBaseViewController.m */,
+				EF7DDB241DA7C7DB00F519C5 /* DAVNetwork.h */,
+				EF7DDB251DA7C7DB00F519C5 /* DAVNetwork.m */,
+				EF7DDB261DA7C7DB00F519C5 /* DAVTabBarViewController.h */,
+				EF7DDB271DA7C7DB00F519C5 /* DAVTabBarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EF7DDB2B1DA7C80100F519C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB2C1DA7C80100F519C5 /* DBHelperDAV.h */,
+				EF7DDB2D1DA7C80100F519C5 /* DBHelperDAV.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7DDB321DA7CB8100F519C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB331DA7CBD400F519C5 /* DAVHomeViewController.h */,
+				EF7DDB341DA7CBD400F519C5 /* DAVHomeViewController.m */,
+				EF7DDB361DA7CBEC00F519C5 /* DAVProductsViewController.h */,
+				EF7DDB371DA7CBEC00F519C5 /* DAVProductsViewController.m */,
+				EF7DDB391DA7CC0900F519C5 /* DAVFindViewController.h */,
+				EF7DDB3A1DA7CC0900F519C5 /* DAVFindViewController.m */,
+				EF7DDB3C1DA7CC1500F519C5 /* DAVShoppingCartViewController.h */,
+				EF7DDB3D1DA7CC1500F519C5 /* DAVShoppingCartViewController.m */,
+				EF7DDB3F1DA7CC2400F519C5 /* DAVMineViewController.h */,
+				EF7DDB401DA7CC2400F519C5 /* DAVMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF7DDB421DA7D11C00F519C5 /* ThirdVendor */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB531DA7D11C00F519C5 /* umeng_ios_social_sdk_5.0.1_arm64_custom */,
+			);
+			path = ThirdVendor;
+			sourceTree = "<group>";
+		};
+		EF7DDB531DA7D11C00F519C5 /* umeng_ios_social_sdk_5.0.1_arm64_custom */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB541DA7D11C00F519C5 /* ConfigDAV.h */,
+				EF7DDB551DA7D11C00F519C5 /* ConfigDAV.m */,
+				EF7DDB561DA7D11C00F519C5 /* shopModelDAV.h */,
+				EF7DDB571DA7D11C00F519C5 /* shopModelDAV.m */,
+				EF7DDB581DA7D11C00F519C5 /* UMSocial_Sdk_5.0.1 */,
+				EF7DDB731DA7D11C00F519C5 /* UMSocial_Sdk_Extra_Frameworks */,
+				EF7DDB8F1DA7D11C00F519C5 /* UMSocial_Sdk_Instructions */,
+				EF7DDB9C1DA7D11C00F519C5 /* UserDAV.h */,
+				EF7DDB9D1DA7D11C00F519C5 /* UserDAV.m */,
+			);
+			path = umeng_ios_social_sdk_5.0.1_arm64_custom;
+			sourceTree = "<group>";
+		};
+		EF7DDB581DA7D11C00F519C5 /* UMSocial_Sdk_5.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB591DA7D11C00F519C5 /* UMSocialLocalizable.strings */,
+				EF7DDB5B1DA7D11C00F519C5 /* Header */,
+				EF7DDB671DA7D11C00F519C5 /* libUMSocial_Sdk_5.0.1.a */,
+				EF7DDB681DA7D11C00F519C5 /* SocialSDKXib */,
+				EF7DDB711DA7D11C00F519C5 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_5.0.1;
+			sourceTree = "<group>";
+		};
+		EF7DDB5B1DA7D11C00F519C5 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB5C1DA7D11C00F519C5 /* UMSocial.h */,
+				EF7DDB5D1DA7D11C00F519C5 /* UMSocialAccountManager.h */,
+				EF7DDB5E1DA7D11C00F519C5 /* UMSocialBar.h */,
+				EF7DDB5F1DA7D11C00F519C5 /* UMSocialConfig.h */,
+				EF7DDB601DA7D11C00F519C5 /* UMSocialControllerService.h */,
+				EF7DDB611DA7D11C00F519C5 /* UMSocialControllerServiceComment.h */,
+				EF7DDB621DA7D11C00F519C5 /* UMSocialData.h */,
+				EF7DDB631DA7D11C00F519C5 /* UMSocialDataService.h */,
+				EF7DDB641DA7D11C00F519C5 /* UMSocialSnsData.h */,
+				EF7DDB651DA7D11C00F519C5 /* UMSocialSnsPlatformManager.h */,
+				EF7DDB661DA7D11C00F519C5 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		EF7DDB681DA7D11C00F519C5 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB691DA7D11C00F519C5 /* UMSCommentDetailController.xib */,
+				EF7DDB6A1DA7D11C00F519C5 /* UMSCommentInputController.xib */,
+				EF7DDB6B1DA7D11C00F519C5 /* UMSCommentInputControlleriPad.xib */,
+				EF7DDB6C1DA7D11C00F519C5 /* UMShareEditViewController.xib */,
+				EF7DDB6D1DA7D11C00F519C5 /* UMShareEditViewControlleriPad.xib */,
+				EF7DDB6E1DA7D11C00F519C5 /* UMSLoginViewController.xib */,
+				EF7DDB6F1DA7D11C00F519C5 /* UMSnsAccountViewController.xib */,
+				EF7DDB701DA7D11C00F519C5 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		EF7DDB731DA7D11C00F519C5 /* UMSocial_Sdk_Extra_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UMSocial_Sdk_Extra_Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7DDB8F1DA7D11C00F519C5 /* UMSocial_Sdk_Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DDB901DA7D11C00F519C5 /* iOS-social-analytics-releasenote.html */,
+				EF7DDB911DA7D11C00F519C5 /* iOS-social-releasenote.html */,
+				EF7DDB921DA7D11C00F519C5 /* ios-social-sdk-comment-detail.html */,
+				EF7DDB931DA7D11C00F519C5 /* ios-social-sdk-comment-quick.html */,
+				EF7DDB941DA7D11C00F519C5 /* ios-social-sdk-like.html */,
+				EF7DDB951DA7D11C00F519C5 /* ios-social-sdk-login-detail.html */,
+				EF7DDB961DA7D11C00F519C5 /* ios-social-sdk-login-quick.html */,
+				EF7DDB971DA7D11C00F519C5 /* ios-social-sdk-shake.html */,
+				EF7DDB981DA7D11C00F519C5 /* ios-social-sdk-share-detail.html */,
+				EF7DDB991DA7D11C00F519C5 /* ios-social-sdk-share-quick.html */,
+				EF7DDB9A1DA7D11C00F519C5 /* ios-social-sdk-socialbar.html */,
+				EF7DDB9B1DA7D11C00F519C5 /* markdown.css */,
+			);
+			path = UMSocial_Sdk_Instructions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7DD9C01DA7C12100F519C5 /* AppBasicFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DD9EE1DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFramework" */;
+			buildPhases = (
+				BFC89FB30425814D36D8BB70 /* Check Pods Manifest.lock */,
+				EF7DD9BD1DA7C12100F519C5 /* Sources */,
+				EF7DD9BE1DA7C12100F519C5 /* Frameworks */,
+				EF7DD9BF1DA7C12100F519C5 /* Resources */,
+				7FAFEBB42AB732799B1EA2CD /* Embed Pods Frameworks */,
+				9553E011D3CE02A4BEC18103 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppBasicFramework;
+			productName = AppBasicFramework;
+			productReference = EF7DD9C11DA7C12100F519C5 /* AppBasicFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7DD9D91DA7C12100F519C5 /* AppBasicFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DD9F11DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFrameworkTests" */;
+			buildPhases = (
+				EF7DD9D61DA7C12100F519C5 /* Sources */,
+				EF7DD9D71DA7C12100F519C5 /* Frameworks */,
+				EF7DD9D81DA7C12100F519C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7DD9DC1DA7C12100F519C5 /* PBXTargetDependency */,
+			);
+			name = AppBasicFrameworkTests;
+			productName = AppBasicFrameworkTests;
+			productReference = EF7DD9DA1DA7C12100F519C5 /* AppBasicFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7DD9E41DA7C12100F519C5 /* AppBasicFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DD9F41DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFrameworkUITests" */;
+			buildPhases = (
+				EF7DD9E11DA7C12100F519C5 /* Sources */,
+				EF7DD9E21DA7C12100F519C5 /* Frameworks */,
+				EF7DD9E31DA7C12100F519C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7DD9E71DA7C12100F519C5 /* PBXTargetDependency */,
+			);
+			name = AppBasicFrameworkUITests;
+			productName = AppBasicFrameworkUITests;
+			productReference = EF7DD9E51DA7C12100F519C5 /* AppBasicFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7DD9B91DA7C12100F519C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DAV;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Davis.Qiao;
+				TargetAttributes = {
+					EF7DD9C01DA7C12100F519C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF7DD9D91DA7C12100F519C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7DD9C01DA7C12100F519C5;
+					};
+					EF7DD9E41DA7C12100F519C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF7DD9C01DA7C12100F519C5;
+					};
+				};
+			};
+			buildConfigurationList = EF7DD9BC1DA7C12100F519C5 /* Build configuration list for PBXProject "AppBasicFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = EF7DD9B81DA7C12100F519C5;
+			productRefGroup = EF7DD9C21DA7C12100F519C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7DD9C01DA7C12100F519C5 /* AppBasicFramework */,
+				EF7DD9D91DA7C12100F519C5 /* AppBasicFrameworkTests */,
+				EF7DD9E41DA7C12100F519C5 /* AppBasicFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7DD9BF1DA7C12100F519C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DDB1B1DA7C77E00F519C5 /* DAVRecordTableViewCell.xib in Resources */,
+				EF7DDBC31DA7D11C00F519C5 /* ios-social-sdk-socialbar.html in Resources */,
+				EF7DDBAC1DA7D11C00F519C5 /* UMShareEditViewControlleriPad.xib in Resources */,
+				EF7DDBC41DA7D11C00F519C5 /* markdown.css in Resources */,
+				EF7DD9D41DA7C12100F519C5 /* LaunchScreen.storyboard in Resources */,
+				EF7DD9D11DA7C12100F519C5 /* Assets.xcassets in Resources */,
+				EF7DDBC11DA7D11C00F519C5 /* ios-social-sdk-share-detail.html in Resources */,
+				EF7DDBC21DA7D11C00F519C5 /* ios-social-sdk-share-quick.html in Resources */,
+				EF7DDBBA1DA7D11C00F519C5 /* iOS-social-releasenote.html in Resources */,
+				EF7DDBBB1DA7D11C00F519C5 /* ios-social-sdk-comment-detail.html in Resources */,
+				EF7DDBAF1DA7D11C00F519C5 /* UMSShareListController.xib in Resources */,
+				EF7DDBBD1DA7D11C00F519C5 /* ios-social-sdk-like.html in Resources */,
+				EF7DDBBC1DA7D11C00F519C5 /* ios-social-sdk-comment-quick.html in Resources */,
+				EF7DDBAD1DA7D11C00F519C5 /* UMSLoginViewController.xib in Resources */,
+				EF7DD9CF1DA7C12100F519C5 /* Main.storyboard in Resources */,
+				EF7DDBA91DA7D11C00F519C5 /* UMSCommentInputController.xib in Resources */,
+				EF7DDBB01DA7D11C00F519C5 /* UMSocialSDKResourcesNew.bundle in Resources */,
+				EF7DDBCB1DA7DA0A00F519C5 /* msyh.ttf in Resources */,
+				EF7DDBA81DA7D11C00F519C5 /* UMSCommentDetailController.xib in Resources */,
+				EF7DDBAB1DA7D11C00F519C5 /* UMShareEditViewController.xib in Resources */,
+				EF7DDBBF1DA7D11C00F519C5 /* ios-social-sdk-login-quick.html in Resources */,
+				EF7DDBC01DA7D11C00F519C5 /* ios-social-sdk-shake.html in Resources */,
+				EF7DDBB91DA7D11C00F519C5 /* iOS-social-analytics-releasenote.html in Resources */,
+				EF7DDBAA1DA7D11C00F519C5 /* UMSCommentInputControlleriPad.xib in Resources */,
+				EF7DDBA61DA7D11C00F519C5 /* UMSocialLocalizable.strings in Resources */,
+				EF7DDBBE1DA7D11C00F519C5 /* ios-social-sdk-login-detail.html in Resources */,
+				EF7DDBAE1DA7D11C00F519C5 /* UMSnsAccountViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9D81DA7C12100F519C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9E31DA7C12100F519C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FAFEBB42AB732799B1EA2CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9553E011D3CE02A4BEC18103 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC89FB30425814D36D8BB70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7DD9BD1DA7C12100F519C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DDB1F1DA7C77E00F519C5 /* ProductsSegmentView.m in Sources */,
+				EF7DDAE01DA7C77E00F519C5 /* UILabel+ESAdjustableLabel.m in Sources */,
+				EF7DDBA41DA7D11C00F519C5 /* ConfigDAV.m in Sources */,
+				EF7DDB1C1DA7C77E00F519C5 /* CountdownNumber.m in Sources */,
+				EF7DDBA51DA7D11C00F519C5 /* shopModelDAV.m in Sources */,
+				EF7DDB311DA7C9E000F519C5 /* DAVCarouselAdView.m in Sources */,
+				EF7DDAE11DA7C77E00F519C5 /* UILabel+PPSetRangeTextColor.m in Sources */,
+				EF7DDAE41DA7C77E00F519C5 /* UITextView+PlaceHolder.m in Sources */,
+				EF7DD9C91DA7C12100F519C5 /* AppDelegate.m in Sources */,
+				EF7DDAE51DA7C77E00F519C5 /* UIView+popAnimation.m in Sources */,
+				EF7DDAEB1DA7C77E00F519C5 /* CustomNaviBarView.m in Sources */,
+				EF7DDAE31DA7C77E00F519C5 /* UITextField+History.m in Sources */,
+				EF7DDB161DA7C77E00F519C5 /* DAVRefreshHeader.m in Sources */,
+				EF7DDAE71DA7C77E00F519C5 /* DAVProductDetailViewController.m in Sources */,
+				EF7DDB201DA7C77E00F519C5 /* topSegmentView.m in Sources */,
+				EF7DDB281DA7C7DB00F519C5 /* DAVBaseViewController.m in Sources */,
+				EF7DDAE91DA7C77E00F519C5 /* DAVProductModel.m in Sources */,
+				EF7DDB1D1DA7C77E00F519C5 /* otherUserView.m in Sources */,
+				EF7DDB1A1DA7C77E00F519C5 /* DAVRecordTableViewCell.m in Sources */,
+				EF7DDADD1DA7C77E00F519C5 /* UIButton+TouchAreaInsets.m in Sources */,
+				EF7DDADF1DA7C77E00F519C5 /* UIImageView+ShopAnimation.m in Sources */,
+				EF7DDBC51DA7D11C00F519C5 /* UserDAV.m in Sources */,
+				EF7DDB291DA7C7DB00F519C5 /* DAVNetwork.m in Sources */,
+				EF7DDAD71DA7C77E00F519C5 /* HJCornerRadius.m in Sources */,
+				EF7DDB1E1DA7C77E00F519C5 /* PPCGProgressView.m in Sources */,
+				EF7DDB181DA7C77E00F519C5 /* keyChainStoreDAV.m in Sources */,
+				EF7DDB2A1DA7C7DB00F519C5 /* DAVTabBarViewController.m in Sources */,
+				EF7DDADC1DA7C77E00F519C5 /* UIButton+Submitting.m in Sources */,
+				EF7DDB381DA7CBEC00F519C5 /* DAVProductsViewController.m in Sources */,
+				EF7DDB3E1DA7CC1500F519C5 /* DAVShoppingCartViewController.m in Sources */,
+				EF7DDAE61DA7C77E00F519C5 /* UIView+PPAdd.m in Sources */,
+				EF7DDB191DA7C77E00F519C5 /* UUIDDAV.m in Sources */,
+				EF7DDAD81DA7C77E00F519C5 /* NSError+UserError.m in Sources */,
+				EF7DDAE21DA7C77E00F519C5 /* UILabel+SizeToFitTitleLength.m in Sources */,
+				EF7DDADB1DA7C77E00F519C5 /* UIButton+SizeToFitTitleLength.m in Sources */,
+				EF7DD9C61DA7C12100F519C5 /* main.m in Sources */,
+				EF7DDB171DA7C77E00F519C5 /* DAVSetUpNetworkParam.m in Sources */,
+				EF7DDB411DA7CC2400F519C5 /* DAVMineViewController.m in Sources */,
+				EF7DDADE1DA7C77E00F519C5 /* UIColor+Hex.m in Sources */,
+				EF7DDB2E1DA7C80100F519C5 /* DBHelperDAV.m in Sources */,
+				EF7DDB351DA7CBD400F519C5 /* DAVHomeViewController.m in Sources */,
+				EF7DDB151DA7C77E00F519C5 /* DAVMD5.m in Sources */,
+				EF7DDADA1DA7C77E00F519C5 /* UIButton+LXMImagePosition.m in Sources */,
+				EF7DDB3B1DA7CC0900F519C5 /* DAVFindViewController.m in Sources */,
+				EF7DDAEA1DA7C77E00F519C5 /* DAVProductModelDic.m in Sources */,
+				EF7DDAEC1DA7C77E00F519C5 /* DAVUploadParam.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9D61DA7C12100F519C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DD9DF1DA7C12100F519C5 /* AppBasicFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DD9E11DA7C12100F519C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DD9EA1DA7C12100F519C5 /* AppBasicFrameworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7DD9DC1DA7C12100F519C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7DD9C01DA7C12100F519C5 /* AppBasicFramework */;
+			targetProxy = EF7DD9DB1DA7C12100F519C5 /* PBXContainerItemProxy */;
+		};
+		EF7DD9E71DA7C12100F519C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7DD9C01DA7C12100F519C5 /* AppBasicFramework */;
+			targetProxy = EF7DD9E61DA7C12100F519C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7DD9CD1DA7C12100F519C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DD9CE1DA7C12100F519C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7DD9D21DA7C12100F519C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DD9D31DA7C12100F519C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7DDB591DA7D11C00F519C5 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DDB5A1DA7D11C00F519C5 /* en */,
+				EF7DDB721DA7D11C00F519C5 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7DD9EC1DA7C12100F519C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7DD9ED1DA7C12100F519C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7DD9EF1DA7C12100F519C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8383BAF24793A4D3418CE3FF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/AlipaySdk,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/FHBSdk,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = AppBasicFramework/AppBasicFrameworkPCH.pch;
+				INFOPLIST_FILE = AppBasicFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/WeiXinPay,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_5.0.1",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7DD9F01DA7C12100F519C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE17F9F55654CCCCEA0D34CB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/AlipaySdk,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/FHBSdk,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = AppBasicFramework/AppBasicFrameworkPCH.pch;
+				INFOPLIST_FILE = AppBasicFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/FanweiPaySdk/Third",
+					Sdk/WeiXinPay,
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_5.0.1",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/AppBasicFramework/Common/ThirdVendor/umeng_ios_social_sdk_5.0.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7DD9F21DA7C12100F519C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppBasicFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppBasicFramework.app/AppBasicFramework";
+			};
+			name = Debug;
+		};
+		EF7DD9F31DA7C12100F519C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppBasicFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppBasicFramework.app/AppBasicFramework";
+			};
+			name = Release;
+		};
+		EF7DD9F51DA7C12100F519C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppBasicFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppBasicFramework;
+			};
+			name = Debug;
+		};
+		EF7DD9F61DA7C12100F519C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppBasicFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Davis.Qiao.AppBasicFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppBasicFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7DD9BC1DA7C12100F519C5 /* Build configuration list for PBXProject "AppBasicFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DD9EC1DA7C12100F519C5 /* Debug */,
+				EF7DD9ED1DA7C12100F519C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7DD9EE1DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DD9EF1DA7C12100F519C5 /* Debug */,
+				EF7DD9F01DA7C12100F519C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7DD9F11DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DD9F21DA7C12100F519C5 /* Debug */,
+				EF7DD9F31DA7C12100F519C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7DD9F41DA7C12100F519C5 /* Build configuration list for PBXNativeTarget "AppBasicFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DD9F51DA7C12100F519C5 /* Debug */,
+				EF7DD9F61DA7C12100F519C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7DD9B91DA7C12100F519C5 /* Project object */;
+}
